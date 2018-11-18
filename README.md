@@ -1,12 +1,20 @@
 # nicholasanthonylawson.github.io
 
+
 Nicholas Lawson <nicholasanthonylawson@gmail.com> 
+
 Fri, Nov 16, 3:12 PM (2 days ago) 
+
 from:	Nicholas Lawson <nicholasanthonylawson@gmail.com> 
+
 to:	info@brandery.org 
+
 date:	Nov 16, 2018, 3:12 PM 
-subject:	DONE 
+
+subject:	DONE
+
 mailed-by:	gmail.com 
+
 
 http://nicholasanthonylawson.github.io
 
