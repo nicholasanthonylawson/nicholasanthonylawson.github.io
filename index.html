@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<head>
-<title>Ohio Business Reporting Bureau</title>
-<meta name="description" content="The Perfect Website">
-<meta name="author" content="Nicholas Anthony Nicholas Lawson B.a.">
-<meta http-equiv="refresh" content="0; URL='https://docs.google.com/document/d/1kCMsu4UIatLzQp7rGnh0_Pk8qnUsh3hinrbvf_otM6Y/edit?usp=sharing'" />
+<html>
 
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
+
+
+<canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+for (x = 60; x <= 480; x+=60) {
+	for (y = 60; y<= 480; y+=60) {
+		square(x,y);
+		ctx.stroke();
+	}
+}
+
+function square(x,y) {
+	ctx.rect(x,y,30,30);
+}
+
+</script> 
+
+<h1>
+Midwestern Logic
+</h1>
+<p>
+Chief Officer<br>
+Nicholas Lawson<br>
+<a href="mailto:wuzywute@gmail.com">Email</a>
+</p>
 
 </body>
 </html>
