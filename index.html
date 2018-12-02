@@ -19,12 +19,25 @@ var ctx = c.getContext("2d");
 for (x = 60; x <= 480; x+=60) {
 	for (y = 60; y<= 480; y+=60) {
 		square(x,y);
-		ctx.stroke();
-	}
+		circle(x,y);
+		}
 }
 
 function square(x,y) {
-	ctx.rect(x,y,30,30);
+
+	var random = Math.random() * 10;
+	ctx.rect( x + random, y + random, random * 5, random * 5);
+	ctx.lineWidth = random;
+	ctx.stroke();
+}
+
+function circle(x,y) {
+	
+	var random = Math.random() * 10;
+	ctx.beginPath();
+    ctx.arc(x + random * 5, y + random * 5, random, 0,2*Math.PI);
+	
+
 }
 
 </script> 
